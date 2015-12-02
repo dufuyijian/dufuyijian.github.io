@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* *****base****************/
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,input,textarea,figure,form,td,th{margin:0;padding:0; font-weight:normal}
+body,input,textarea{font-size: 62.5%;font-family:microsoft yahei,sans-serif;}
+body{-webkit-user-select:none;-moz-user-select:none;-webkit-touch-callout:none;cursor:default;-webkit-text-size-adjust:100%}
+ul,ol{list-style:none}
+button,input {line-height:normal;*overflow:visible}
+q,input,textarea{outline:none;resize: none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+a{color:#3B8DD1;color:#ddd\9;text-decoration:none;font-size:12px;}
+em,span,b{font-style:normal;font-weight:normal}
+html {  -webkit-text-size-adjust: none; } 
+img {max-width: 100%; height: auto; vertical-align:middle;width: auto\9;  }   
+input:focus {outline:none;}
+.clearfix:after {visibility:hidden;display:block;content:'';clear:both;}
+.clearfix {zoom:1;}
+body *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* *****baseend****************/
+/*shouji*/
+.header{background:#ffea6b;width:100%;position:relative;min-height:600px;}
+.b_img{background:url(../images/top_u.png) center 30% no-repeat;margin:0 auto;width:100%;height:600px;}
+.sec{width:100%;position:relative;min-height:1400px;}
+.s_wapper{background:url(../images/lang1.png) center top no-repeat;position:absolute;z-index:1;height:350px;width:100%;top:-100px;}
+.s_bottom{background:url(../images/sec_bottom.png) center top no-repeat;position:absolute;width:100%;height:300px;z-index:2;color:red;bottom:-50px;}
+.sun_bg{background:url(../images/two_bg.png) no-repeat center 0 #4c97fd;-background-size:cover;position:absolute;z-index:2;width:100%;height:1400px;top:-20px}
+.t_mainW{position:absolute;z-index:3;width:100%;}
+.t_photo{position:relative;margin-top:-20px;}
+.t_p_top{background:url(../images/t_photo_bg.png) no-repeat center top;width:80%;background-size:cover;;margin:0 auto;height:185px;position:relative;z-index:1;}
+.t_p_top li{float:left;margin-top:13%;margin-left:10%;}
+.t_p_top li:nth-of-type(2){margin-top:10%}
+.t_p_top li h6{font-size:1.4rem;color:#583032;}
+.t_p_top li img{border:1px solid #7c7c7c;border-radius:50%}
+.ranking{font-size:1.8rem;}
+.t_p_top span,.color_red{color:#ef293c;font-size:2rem;}
+.t_p_title{background:rgba(255,255,255,.2);height:87px;width:70%;line-height:36px;color:#fff;padding:2%;margin:-10px auto 0 auto;font-size:1rem}
+.t_score{width:80%;margin:5% auto 0 auto;background:url(../images/flooler.png) #fff no-repeat;height:446px;border-radius:30%;}
+.t_score li{float:left;margin-left:5%}
+.detail_sc{padding-top:10%;color:#ed7da3;font-weight:normal;font-size:3rem;text-align:center;;line-height:110px;}
+.detail_sc span{font-size:4rem;}
+.t_score h4{line-height:46px;font-size:1.4rem;color:#666}
+.click_btn{position:relative;width:76%;margin:5% auto 0 auto}
+.click_btn button{width:100%;color:#672701;font-size:2rem;margin:0 auto;height:90px;background:#ffee2e;border:0;border-radius:10px;box-shadow:1px 10px 1px #ffc646}
+.finger{background:url(../images/_zanclick.png) no-repeat;position:absolute;right:0;width:96px;height:110px;right:-8%;bottom:-74%;}
+.award_list{margin-top:10%}
+-.award_list ul{width:90%;margin:0 auto}
+.award_list h3{width:207px;height:51px;background:url(../images/prize_bg.png) no-repeat;font-size:1rem;color:666;line-height:51px;text-align:center;margin:0 auto}
+.award_list li{float:left;margin-left:3.4%;margin-top:3%}
+.footer{width:100%;height:600px;background:#19c3a9;padding-top:10%}
+.f_wapper{width:90%;margin:0 auto}
+.footer h2{background:url(../images/rule.png) no-repeat;font-size:1.1rem;color:#803e12;font-weight:normal;line-height:42px;margin-top:5%;text-align:center;width:143px;height:42px;}
+.footer p{line-height:40px;font-size:1rem;color:#fff;width:92%;margin:0 auto}
+@-webkit-keyframes cloud
+{
+	0%
+	{
+		-webkit-transform:translateX(0px);
+	}
+	100%
+	{
+		-webkit-transform:translateX(-40px);
+	}
+	
+}
+.cloud{ position:absolute;  background-size:contain;}
+.cloud:nth-of-type(1){ background:url(../images/cloud2.png) no-repeat;right:10%;top:5%;width:92px;height:59px; -webkit-animation:cloud 3s .5s infinite alternate linear;}
+.cloud:nth-of-type(2){ background:url(../images/cloud1.png) no-repeat;left:10%;top:5%;width:73px;height:49px; -webkit-animation:cloud 2s .1s infinite alternate linear;}
+
+@media  only screen and (max-width: 320px){
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.b_img{width:80%;background-size:contain}
+	
+}
+@media screen and (min-width:768px) and (max-width:1280px) {
+   
+  
+}
+
+@media screen and (min-width: 1052px) and (max-width: 1280px) {
+	
+ }
+ @media screen and (min-width:1281px){
+	
+ }
+
