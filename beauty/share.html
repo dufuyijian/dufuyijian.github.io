@@ -157,24 +157,24 @@ function fnIndex(){
 	function fnIndexOut()
 	{
 	   	addClass(oMask,"pageShow");
-		setTimeout(function(){
+	
 			oMask.style.opacity=1;	
-			osec.style.WebkitFilter=osec.style.filter="blur(4px)";
-			oheader.style.WebkitFilter=osec.style.filter="blur(4px)";
-			ofooter.style.WebkitFilter=osec.style.filter="blur(4px)";
-		},14);
+			//osec.style.WebkitFilter=osec.style.filter="blur(4px)";
+			//oheader.style.WebkitFilter=osec.style.filter="blur(4px)";
+			//ofooter.style.WebkitFilter=osec.style.filter="blur(4px)";
+		
 		
 	}
 	function fnIndexClose()
 	{
-	   debugger;
-		setTimeout(function(){
+	   
+	
 			oMask.style.opacity=0;	
-			osec.style.WebkitFilter=osec.style.filter="blur(0px)";
-			oheader.style.WebkitFilter=osec.style.filter="blur(0px)";
-			ofooter.style.WebkitFilter=osec.style.filter="blur(0px)";
+			//osec.style.WebkitFilter=osec.style.filter="blur(0px)";
+			//oheader.style.WebkitFilter=osec.style.filter="blur(0px)";
+			//ofooter.style.WebkitFilter=osec.style.filter="blur(0px)";
 			removeClass(oMask,"pageShow");
-		},14);
+		
 		
 	}
 	
