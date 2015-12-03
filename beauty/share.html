@@ -17,12 +17,12 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="b_img"></div>
       <span class="cloud"></span>
       <span class="cloud"></span>
     </header>
-    <section class="sec">
+    <section class="sec" id="sec">
       <div class="s_wapper">
        </div>
        <div class="s_bottom">
@@ -49,20 +49,12 @@
     设计尸，大家电锯，……等<span>345</span>人给我点赞了！！</h4>
          </div>
          <div class="t_score">
-            <h2 class="detail_sc">颜值分:<span>5200</span></h2>
-            <ul class="clearfix">
-                <li><img src="images/score_img.png"/></li>
-                <li>
-                    <h4><span>脸型</span><b>89</b></h4>
-                    <h4><span>脸型</span><b>89</b></h4>
-                    <h4><span>脸型</span><b>89</b></h4>
-                    <h4><span>脸型</span><b>89</b></h4>
-                </li>
-                <li><img src="images/score_img1.png"/></li>
-            </ul>
+     
+           <a class="t_titkeSc" href="javascript:;"><dnf>98.32</dnf><i>分</i></a>
+           <h6>靠脸吃饭新技能— —<span>get&radic;</span></h6>
          </div>
-         <div class="click_btn">
-            <button>点这里帮TA点赞加分</button>
+         <div class="click_btn" id="click_btn">
+            <input type="button" class="button"   value="点这里帮TA点赞加分"/>
             <em class="finger"></em>
          </div>
          <div class="award_list clearfix">
@@ -84,7 +76,7 @@
         
         
     </section>
-    <section class="footer">
+    <section class="footer" id="footer">
         <div class="f_wapper">
             <h2 class="foot_title">参赛规则</h2>
            <p>1.超级简单！只要超级简单！只要进入超级简单！只要进入超级简单！只要进入超级简单！只要进入进入</p>
@@ -94,5 +86,99 @@
            <p>1.超级简单！只要超级简单！只要进入超级简单！只要进入超级简单！只要进入超级简单！只要进入进入</p>
         </div>
     </section>
+    <section class="page" id="mask">
+   	 <div class="click_zan">
+       <h2>您已成功给<span>“烟火”</span>加一分</h2>
+       <p>当前他的点赞总数为:<span>111</span></p>
+       <input type="button" value="我也要参加比赛" />
+       <em id="z_close"></em>
+     </div>
+     
+    </section>
+    <script>
+// JavaScript Document
+function id(obj) {
+    return document.getElementById(obj);
+}
+function bind(obj, ev, fn) { 
+    if (obj.addEventListener) {
+        obj.addEventListener(ev, fn, false);
+    } else {
+        obj.attachEvent('on' + ev, function() {
+            fn.call(obj);
+        });
+    }
+}
+function view() {
+    return {
+        w: document.documentElement.clientWidth,
+        h: document.documentElement.clientHeight
+    };
+}
+function addClass(obj, sClass) { 
+    var aClass = obj.className.split(' ');
+    if (!obj.className) {
+        obj.className = sClass;
+        return;
+    }
+    for (var i = 0; i < aClass.length; i++) {
+        if (aClass[i] === sClass) return;
+    }
+    obj.className += ' ' + sClass;
+}
+
+function removeClass(obj, sClass) { 
+    var aClass = obj.className.split(' ');
+    if (!obj.className) return;
+    for (var i = 0; i < aClass.length; i++) {
+        if (aClass[i] === sClass) {
+            aClass.splice(i, 1);
+            obj.className = aClass.join(' ');
+            break;
+        }
+    }
+}
+
+fnIndex();
+function fnIndex(){
+	
+	var oIndex=id("click_btn");
+	var oClose=id("z_close");
+	var oBtn=oIndex.getElementsByTagName("input")[0];
+	var oMask=id("mask");
+		var osec=id("sec");
+		var oheader=id("header");
+		var ofooter=id("footer");
+		
+	
+	bind(oBtn,"touchend",fnIndexOut);
+	bind(oClose,"touchend",fnIndexClose);
+	
+	function fnIndexOut()
+	{
+	   	addClass(oMask,"pageShow");
+		setTimeout(function(){
+			oMask.style.opacity=1;	
+			osec.style.WebkitFilter=osec.style.filter="blur(4px)";
+			oheader.style.WebkitFilter=osec.style.filter="blur(4px)";
+			ofooter.style.WebkitFilter=osec.style.filter="blur(4px)";
+		},14);
+		
+	}
+	function fnIndexClose()
+	{
+	   debugger;
+		setTimeout(function(){
+			oMask.style.opacity=0;	
+			osec.style.WebkitFilter=osec.style.filter="blur(0px)";
+			oheader.style.WebkitFilter=osec.style.filter="blur(0px)";
+			ofooter.style.WebkitFilter=osec.style.filter="blur(0px)";
+			removeClass(oMask,"pageShow");
+		},14);
+		
+	}
+	
+}
+	</script>
 </body>
 </html>
