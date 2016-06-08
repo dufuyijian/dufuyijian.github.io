@@ -2,14 +2,14 @@ $(function(){
 //js自动计算font-size
 var docEl = document.documentElement;
 var clientWidth = docEl.clientWidth;
-if(clientWidth > 640) clientWidth = 640; 
- docEl.style.fontSize = clientWidth / 6.4 + 'px';
+if(clientWidth > 800) clientWidth = 800; 
+ docEl.style.fontSize = clientWidth / 8 + 'px';
   (function (doc, win) {
       resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
       recalc = function () {
-        if(clientWidth > 640) clientWidth = 640;
+        if(clientWidth > 800) clientWidth = 800;
         if (!clientWidth) return;
-        docEl.style.fontSize = clientWidth / 6.4 + 'px';
+        docEl.style.fontSize = clientWidth / 8 + 'px';
       };
      if (!doc.addEventListener) return;
      win.addEventListener(resizeEvt, recalc, false);
