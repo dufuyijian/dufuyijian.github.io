@@ -2,14 +2,15 @@ $(function(){
 //js自动计算font-size
 var docEl = document.documentElement;
 var clientWidth = docEl.clientWidth;
-if(clientWidth > 800) clientWidth = 800; 
- docEl.style.fontSize = clientWidth / 8 + 'px';
+var clientHeight = docEl.clientHeight;
+if(clientWidth > 760) clientWidth = 760; 
+ docEl.style.fontSize = clientWidth / 7.6 + 'px';
   (function (doc, win) {
       resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
       recalc = function () {
-        if(clientWidth > 800) clientWidth = 800;
+        if(clientWidth > 760) clientWidth = 760;
         if (!clientWidth) return;
-        docEl.style.fontSize = clientWidth / 8 + 'px';
+        docEl.style.fontSize = clientWidth / 7.6 + 'px';
       };
      if (!doc.addEventListener) return;
      win.addEventListener(resizeEvt, recalc, false);
@@ -33,7 +34,7 @@ if(clientWidth > 800) clientWidth = 800;
     	$('.itemList img').fadeIn();
     })
     
-  
+  $('.login').css('height',clientHeight);
   
 	
 })
