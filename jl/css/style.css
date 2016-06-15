@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* *****base****************/
 body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,form,input,textarea,select,figure,td,th,menu{margin:0;padding:0; font-weight:normal}
-body{font-family:microsoft yahei,sans-serif;font-size: 14px;font-size:0.16607rem;color:#585858;min-width:320px;max-width:800px;width: 8rem;margin:0 auto!important;position:relative;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-webkit-touch-callout:none;cursor:default;-webkit-text-size-adjust:100%;position:relative;}
+body{font-family:microsoft yahei,sans-serif;font-size: 14px;font-size:0.16607rem;color:#585858;min-width:320px;max-width:800px;width: 8rem;margin:0 auto!important;position:relative;overflow-x:hidden;-webkit-user-select:none;-moz-user-select:none;-webkit-touch-callout:none;cursor:default;-webkit-text-size-adjust:100%;position:relative;}
 li{ list-style:none;}
 img {max-width: 100%; height: auto; vertical-align:middle;width: auto\9;  }   
 input:focus {outline:none;}
@@ -82,7 +82,7 @@ footer{height:0.9rem;width:8rem;position: fixed;bottom: 0;}
 
 .checkSelect:after{content: "选择";color: #99cccc;opacity: 1;left:0;top:0;position: relative;background: none;font-size: 0.3rem;box-shadow: none}
 .checkSelect{background: none;border-radius: 0.15rem;border:1px solid #bebebe;width: 1.7rem;}
-
+.jyjl{margin-bottom: 0.85rem;}
 /****************goods***************************/
 .buyer{height:1.42rem;border-bottom: 1px solid #cfcfcf;display: flex;display:-webkit-box;-webkit-box-orient:Horizontal;box-orient:Horizontal;-webkit-box-align:center;-webkit-box-pack:center;}
 .b_left img{width:1rem;height: 1rem;border-radius:50%;}
@@ -175,11 +175,11 @@ section .replyHer{padding-bottom:0;}
 .p_img input[type='file']{width: 4.26rem;height: 2.56rem;position: absolute;left: 0;top: 0; opacity:0; }
 .form_row{border-bottom: 1px solid #bbb;height: 0.78rem;line-height: 0.78rem;font-size:0.34rem;display: flex;-webkit-box-orient:Horizontal;box-orient:Horizontal;display:-webkit-box;}
 .form_row label{width: 1.68rem;display: block;}
-.form_row input{border:;color: #5e5e5f;width: 4.5rem;border:0;height: 80%; font-size:0.34rem;}
+.form_row input{border:;color: #5e5e5f;width: 4.5rem;border:0;height: 80%; font-size:0.34rem;border-radius:0;}
 .form_row select{height: 0.46rem;border-radius: 0.09rem;font-size:0.34rem; }
 .form_row .f_place{border-right: 1px solid #bbb}
 .fa-map-marker{display: block;}
-.form_row p{width: 0.7rem;text-align: center;line-height: 0.28rem;color: #3399cc;margin:0.1rem 0 0 0.2rem;}
+.form_row p{width: 0.7rem;text-align: center;line-height: 0.28rem;color: #3399cc;margin:0.1rem 0 0 0.05rem;}
 .form_row p b{font-size: 0.24rem;font-weight: normal;}
 .form_row .short-form{width: 2.2rem;}
 .form_row dfn{color: #3399cc;margin-left: 0.4rem;}
