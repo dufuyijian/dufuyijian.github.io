@@ -63,17 +63,17 @@ footer{height:0.9rem;width:100%;position: fixed;bottom: 0;}
 .checkLendTo{background: none;color: #99cccc;text-align: center;font-size: 0.3rem;top:36%;width: 1.7rem;}
 .checkLendTo:after{background:none;position: relative;}
 .checkLendToOne{width: 1rem;}
-.listOperate{display:inline-block; vertical-align:bottom;margin-top:0.2rem;}
-.listOperate i{font-size: 0.48rem;margin-top: 0.3rem;padding: 0  0.28rem 0}
+.listOperate{display:inline-block; vertical-align:bottom;margin-top:0.4rem;height: 0.48rem;}
+.listOperate i{font-size: 0.48rem;-margin-top: 0.3rem;padding: 0  0.28rem 0}
 .listOperate .icon-trash{color: #d0d0d0}
-.listOperate .fa-edit{color: #9fcdcd;float: right;margin-top: 0.33rem;}
+.listOperate .fa-edit{color: #9fcdcd;float: right;margin-top: 0.03rem;}
 .borroe_menu{display: flex;background:#fff;border-top:1px solid #cfcfcf;display: -webkit-box;padding:0.07rem 0;-webkit-box-orient:Horizontal;box-orient:Horizontal;-webkit-box-pack:justify;  -webkit-box-align:center}
 .borroe_menu a{display: block;color: #8c8c8c;width: 1.5rem;text-align: center;font-size: 0.24rem;}
 .borroe_menu i{font-size: 0.43rem;}
 .borr_issue{background: #3399cc;border-radius: 0.1rem;}
 .borr_issue i{color: #fff;vertical-align:middle;}
 .borroe_menu .borr_issue{line-height: 0.7rem;}
-.borroe_menu b{display: block; font-weight: normal;font-size: 0.3rem;}
+.borroe_menu b{display: block; font-weight: normal;font-size: 0.3rem;margin-top:0.04rem;}
 .borroe_menu .active{color: #3399cc}
 /*************index1***************/
 .li_bottom strong{font-weight: normal;width: 58%;padding-right:6%;text-align: right;display: block;color: #9fcdcd;font-size: 0.26rem}
@@ -115,7 +115,7 @@ section .replyHer{padding-bottom:0;}
 .My_top img{border-radius: 50%}
 .My_top .photoImg_s{width: 0.74rem;height: 0.74rem}
 .My_top h1{line-height: 1rem;text-align: left;width: 0.4rem;padding-left: 0.1rem;font-size: 0.36rem;}
-.My_bottom{-webkit-column-count:3;-webkit-column-gap:0px;padding-left: 0.3rem;height: 0.7rem;line-height: 0.7rem;padding-right: 0.5rem;}
+.My_bottom{-webkit-column-count:3;-webkit-column-gap:0px;padding-left: 0.3rem;height: 0.7rem;line-height: 0.7rem;padding-right: 0.56rem;}
 .My_bottom p{text-align: center;font-size: 0.3rem;}
 .My_bottom p:nth-child(1){text-align:left}
 .My_bottom p:last-child{text-align:right}
@@ -130,32 +130,32 @@ section .replyHer{padding-bottom:0;}
 /***************My****************************/
 .myLink{height: 1.45rem;display: flex;border-bottom:1px solid #bbb;-webkit-column-count:3;-webkit-column-gap:0px;display:-webkit-box;-webkit-box-orient:Horizontal;box-orient:Horizontal;-webkit-box-align:center;padding-left: 0.1rem;padding-right: 0.6rem;}
 .myLink img{width: 0.88rem;height: 0.88rem;border-radius: 50%;margin: 0 0.58rem;}
-.myLink p{font-size: 0.36rem;margin-right: 2.74rem;}
-.myLink i{font-size: 0.34rem;display: block;text-align: right;}
+.myLink p{font-size: 0.36rem;margin-right: 2.3rem;}
+.myLink i{font-size: 0.44rem;display: block;text-align: right;}
 .MyItem{}
-.MyItem li{padding:0 0.6rem 0 0.45rem;height:0.72rem;font-size:0.32rem;border-bottom:1px solid #bbb;-webkit-column-count:2;-webkit-column-gap:0px;line-height: 0.72rem;}
+.MyItem li{padding:0 1rem 0 0.45rem;height:0.9rem;font-size:0.36rem;border-bottom:1px solid #bbb;-webkit-column-count:2;-webkit-column-gap:0px;line-height: 0.9rem;}
 .Item_R{text-align: right;}
-.Item_R i{margin-left: 0.36rem;}
-.Item_L i{margin-right: 0.3rem;color: #3399cd;font-size: 0.4rem;}
+.Item_R i{margin-left: 0.36rem;font-size: 0.44rem;}
+.Item_L i{margin-right: 0.3rem;color: #3399cd;font-size: 0.44rem;vertical-align: middle;}
 .Item_L .fa-th-list{color: #99cccc}
 .Item_L .fa-money{color: #607d8b}
 
 /******************myedit*******************************/
 .myEdit{padding-left: 0.45rem;height: 0.94rem;font-size: 0.3rem;}
-.myEdit h4{width: 2.8rem;}
-.myEdit img{margin:0;margin-left: 3.5rem;width: 0.66rem;height: 0.66rem;}
-.myEdit p{width:4.2rem;text-align: right;}
+.myEdit h4{width: 2.8rem;font-size: 0.36rem;}
+.myEdit img{margin:0;margin-left: 3.2rem;width: 0.66rem;height: 0.66rem;}
+.myEdit p{width:3.8rem;text-align: right;}
 .editBot{color: #3399ce;font-size: 0.24rem;display: flex;display:-webkit-box;-webkit-box-align:center;padding-left: 0.45rem;height: 0.8rem;}
 .editItem li{-webkit-column-count:3;height: 0.92rem;line-height: 0.92rem}
 .editItem h5{text-align: right;}
-.editItem h6 i,.editItem h5 i{font-size: 0.4rem;vertical-align: middle;}
-.editItem .fa-mobile{font-size: 0.48rem;padding-left: 0.08rem;}
+.editItem h6 i,.editItem h5 i{font-size: 0.44rem;vertical-align: middle;}
+.editItem .fa-mobile{font-size: 0.62rem;padding-left: 0.08rem;}
 .editItem p{text-align: center;font-size: 0.34rem}
 .fa-mobile{color: #8bc34a}
 .fa-weixin{color: #8ec44a}
 .comment-defult{color: #cfcfcf}
 .fa-qq{color: #03a9f4}
-.ediBtn{width: 100%;height: 0.6rem;line-height: 0.6rem;font-size:0.32rem;margin-top:1.45rem;text-align: center;color: #f54c73;background: #fff;border:0;border-top:1px solid #bbb;border-bottom:1px solid #bbb;}
+.ediBtn{width: 100%;height: 0.8rem;line-height: 0.8rem;font-size:0.34rem;margin-top:1.45rem;text-align: center;color: #f54c73;background: #fff;border:0;border-top:1px solid #bbb;border-bottom:1px solid #bbb;}
 
 /********moneyBag****************/
 .moneyBtn{display: flex;-webkit-box-orient:vertical;box-orient:vertical;display:-webkit-box;-webkit-box-align:center;-webkit-box-pack:center;}
@@ -175,13 +175,13 @@ section .replyHer{padding-bottom:0;}
 .p_img input[type='file']{width: 4.26rem;height: 2.56rem;position: absolute;left: 0;top: 0; opacity:0; }
 .form_row{border-bottom: 1px solid #bbb;height: 0.78rem;line-height: 0.78rem;font-size:0.34rem;display: flex;-webkit-box-orient:Horizontal;box-orient:Horizontal;display:-webkit-box;}
 .form_row label{width: 1.68rem;display: block;}
-.form_row input{border:;color: #5e5e5f;width: 4.85rem;border:0;height: 80%; font-size:0.34rem;}
+.form_row input{border:;color: #5e5e5f;width: 4.5rem;border:0;height: 80%; font-size:0.34rem;}
 .form_row select{height: 0.46rem;border-radius: 0.09rem;font-size:0.34rem; }
 .form_row .f_place{border-right: 1px solid #bbb}
 .fa-map-marker{display: block;}
 .form_row p{width: 0.7rem;text-align: center;line-height: 0.28rem;color: #3399cc;margin:0.1rem 0 0 0.2rem;}
 .form_row p b{font-size: 0.24rem;font-weight: normal;}
-.form_row .short-form{width: 2.8rem;}
+.form_row .short-form{width: 2.2rem;}
 .form_row dfn{color: #3399cc;margin-left: 0.4rem;}
 
 
