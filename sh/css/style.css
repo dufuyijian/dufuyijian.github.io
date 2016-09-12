@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* *****base****************/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,form,input,textarea,select,figure,td,th,menu{margin:0;padding:0; font-weight:normal}
+body{font-family:microsoft yahei,sans-serif;font-size: 14px;font-size:0.16607rem;color:#585858;min-width:320px;max-width:750px;width: 100%;margin:0 auto!important;position:relative;overflow-x:hidden;-webkit-user-select:none;-moz-user-select:none;-webkit-touch-callout:none;cursor:default;-webkit-text-size-adjust:100%;position:relative;}
+li{ list-style:none;}
+img {max-width: 100%; height: auto; vertical-align:middle;width: auto\9;  }   
+input:focus {outline:none;}
+html {-webkit-text-size-adjust: none; } 
+body *{-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+em,span,b,i,dfn{font-style:normal;}
+a{color:#585858; text-decoration: none;}
+/* 设置HTML5元素为块 */
+article, footer, header,  menu, nav, section {   display: block;  }
+.clearfix:after {visibility:hidden;display:block;content:'';clear:both;}
+.clearfix {zoom:1;}
+/* *****baseend****************/
+.title{width: 7.1rem;padding:0.72rem 0.2rem 0.62rem 0.2rem;color:#090a09;font-size:0.38rem;line-height: 0.46rem;}
+.page img{width:100%;height:4.9rem;margin-bottom:0.27rem;}
+.page_list li{padding:0  0.2rem;margin-bottom:0.27rem;padding-bottom: 0.24rem;}
+.listTitle{line-height: 0.78rem;color: #666;font-size: 0.28rem;text-align: left;}
+.borderB{border-bottom: 1px solid #f3f5f6;}
+.borderHB{border-bottom: 12px solid #f3f5f6}
+.Jbcont{line-height: 0.98rem;}
+.icoTime{background:url(../img/time-ev@2x.png) no-repeat; }
+.icoMoney{background:url(../img/M@2x.png) no-repeat; }
+.icoAddr{background:url(../img/location-x@2x.png) no-repeat; }
+.ico{width:0.38rem;height:0.38rem;display: inline-block;vertical-align: middle;margin-right: 0.26rem;background-size: contain;}
+.borderHB img{width:100%;height:4.2rem;margin-bottom:0;}
+.Mb3{margin-bottom: 0.3rem;}
+.borderHB p{line-height: 0.36rem;font-size: 0.26rem;color: #666;}
+.Mt3{margin-top: 0.3rem;}
+.Pcollect{background: #f3f5f6;padding:0 0.2rem;}
+.Pcollect h4{line-height: 0.78rem;font-size: 0.26rem;color: #000}
+.PcollNum{padding-left: 0.24rem;}
+.pcollContent{display: flex;height:1.58rem;-webkit-box-pack:justify;display:-webkit-box;-webkit-box-orient:Horizontal;box-orient:Horizontal;-padding:0.38rem 0.76rem 0 0.14rem;-webkit-box-align:center;}
+.pcollList{width: 0.86rem;height:0.86rem;border-radius: 50%;background:#000;}
